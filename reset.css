@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.principal {
+    font-size: 25px;
+    font-weight: 5
+    00;
+}

@@ -1,0 +1,50 @@
+body {
+    background-color: #e1e2e1;
+}
+
+header {
+    display: inline-block;
+    background-color: #DC143C;
+    width: 100%;
+}
+
+header ul li {
+    padding: 5px;
+    float: right;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.image img {
+    width: 100%;
+}
+
+/* Dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px */
+@media (max-width: 576px) {
+    header {
+        background-color: #ADFF2F;
+        text-align: center;
+    }
+
+    header ul li {
+        float: none;
+    }
+}
+
+/* Dispositivos pequenos (celulares em posição paisagem menos de 768px */
+@media (max-width: 768px){}
+
+/* Dispositivos médios (tablets, menos de 992px */
+@media (max-width: 992px) {}
+
+/* Dispositivos grandes (desktops, menos de 1200px */
+@media (max-width: 1200px) {}
+
+/* Dispositivos extra grandes (desktops grandes) */
+/* 1200px ou mais, não tem breakpoint */
